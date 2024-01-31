@@ -3,7 +3,7 @@
 
 My custom portfolio website stands as a testament to my journey in mastering React.js and creating a digital space that truly represents who I am as a professional. As I showcase my projects, skills, and achievements through this platform, I invite visitors to explore not just my work but also the passion and dedication that went into crafting this unique online presence available at [www.abdullahjamil.live](https://abdullahjamil.live)
 
-<img width="1319" alt="Screenshot 2024-01-31 at 10 29 12 PM" src="https://github.com/abdullah-jamil/portfolio-react/assets/94765139/bd95b9ba-1ae8-4e68-a4b2-77a52dd7a751">
+<img width="1256" alt="Screenshot 2024-01-31 at 10 37 30 PM" src="https://github.com/abdullah-jamil/portfolio-react/assets/94765139/bb7121e1-3bd3-4a54-89c1-4a04a9429d8f">
 
 
 ## Installation
