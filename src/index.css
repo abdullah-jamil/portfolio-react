@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@100;300;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root {
+  --color-bg: #28282B;
+  --color-bg-variant: #cb8e39;
+  --color-primary: #fbf8f4;
+  --color-black: #0b0b0b;
+  --color-primary-2: #c68c41;
+  --color-primary-variant: rgba(231, 225, 219, 0.4);
+  --color-white: #fff;
+  --color-light: rgba(255, 255, 255, 0.6);
+  --color-red:rgb(180, 156, 156);
+
+  --transition: all 400ms ease;
+
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  line-height: 1.7;
+  background-image: url(../src/assets/bg-texture.png);
+}
+
+.container {
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+section {
+  margin-top: 3rem;
+}
+
+section > h2,
+section > h5 {
+  color: var(--color-light);
+  text-align: center;
+}
+section > h4{
+  position: relative;
+    font-family: monospace;
+    color: var(--color-light);
+    font-size: 20px;
+    top: 0.001vh;
+    left: 13vw;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid rgb(109, 37, 37);
+    margin:0%;
+    animation: 
+        typing 3s steps(30) infinite;
+}
+section > h1{
+  position: relative;
+    font-family: monospace;
+    font-size: 40px;
+    top: 0.001vh;
+    left: 13vw;
+    color:var(--color-white);
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: .15em solid rgb(109, 37, 37);
+    animation: 
+        typing2 3s steps(30) infinite;
+}
+
+section > h2 {
+  color: var(--color-primary);
+  margin-bottom: 3rem;
+}
+
+.text-light {
+  color: var(--color-primary)
+}
+
+a {
+  transition: var(--transition);
+  color: var(--color-primary)
+}
+
+a:hover {
+  color: var(--color-white);
+}
+
+.btn {
+  width: max-content;
+  display: inline-block;
+  color: var(--color-primary);
+  padding: 0.75rem 1.2rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: 1px solid var(--color-primary);
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background-color: var(--color-white);
+  color: var(--color-bg);
+  border-color: transparent;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-bg);
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+@keyframes typing {
+  from { width: 0 }
+    to { width: 220px; }
+}
+@keyframes typing2 {
+  from { width: 0 }
+    to { width: 360px; }
+}
+
+@media screen and (max-width: 1024px){
+  .container {
+    width: var(--container-width-md);
+  }
+
+  section {
+    margin-top: 3.5rem;
+  }
+  section > h1{
+    font-size:30px;
+  }
+  @keyframes typing2 {
+    from { width: 0 }
+      to { width: 280px; }
+  }
+}
+
+@media screen and (max-width: 600px){
+  .container {
+    width: var(--container-width-sm);
+  }
+
+  section > h2 {
+    margin-bottom: 2rem;
+  }
+}
