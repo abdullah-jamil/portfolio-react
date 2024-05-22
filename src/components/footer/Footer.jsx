@@ -24,7 +24,7 @@ const Footer = () => {
       <a href="https://www.linkedin.com/in/abdullah-jamill/" target="_blank" rel="noreferrer" ><BsLinkedin /></a>
       <a href="https://github.com/abdullah-jamil" target="_blank" rel="noreferrer" ><FaGithub /></a>
       <a href="https://wellfound.com/u/abdullah-jamill" target="_blank" rel="noreferrer" ><FaAngellist /></a>
-      <a href="mailto:heroabdullah85@gmail.com" target="_blank" rel="noreferrer" ><IoMdMail /></a>
+      <a href="mailto:abdullah.jamil.work@gmail.com" target="_blank" rel="noreferrer" ><IoMdMail /></a>
       </div>
       <div className="footer__copyright">
         <small>&copy; ET {getYear()}. All rights reserved.</small>
